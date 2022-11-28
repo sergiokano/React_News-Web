@@ -3,7 +3,6 @@ import "./App.css";
 import Menu from "./components/Menu";
 import NewsGrid from "./components/NewsGrid";
 import { GlobalProvider } from "./context/GlobalState";
-// import axios from "axios";
 
 function App() {
   return (
