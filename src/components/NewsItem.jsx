@@ -1,9 +1,13 @@
+
+import React from "react"
 function NewsItem({ item }) {
     const websiteUrl = item.url;
     const website = websiteUrl.split("https://").pop().split("/")[0];
     const date = item.publishedAt;
     const formatDate = date.replace("T", " ");
     const formatTime = formatDate.replace("Z", "");
+
+    
     return (
       <a href={item.url} className="article">
         <div className="article-image">

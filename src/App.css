@@ -114,8 +114,9 @@ body {
 }
 
 .article:hover .article-image img {
-  transform: translate(-50%, -50 %) scale (1.1);
+  transform: translate(-50%, -50%) scale (1.1);
 }
+
 .article p {
   line-height: 25px;
   color: #555;

@@ -1,6 +1,9 @@
+import { useContext } from "react";
+import { GlobalContext } from "../context/GlobalState";
 import NewsItem from "./NewsItem";
 
-function NewsGrid({ items }) {
+function NewsGrid() {
+  const { items } = useContext(GlobalContext)
   return (
     <div className="news-grid">
       {items.map((item, i) => (
