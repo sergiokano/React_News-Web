@@ -1,28 +1,3 @@
-// import React from 'react'
-// import { Link } from "react-router-dom";
-// import "./Header.css"
-// // import Menu from "../Menu"
-// // import NewsGrid from "../NewsGrid";
-// // import "../../App.css";
-
-// const Header = () => {
-//     return (
-//         <header>
-//           <nav>
-//             <div>Best News Page
-//             <span>
-//               <Link to="/">News</Link>
-//             </span>
-//             <span>
-//               <Link to="/Contact">Contact</Link>
-//             </span>
-//             </div>
-//           </nav>
-//         </header>
-//       )
-//     }
-
-//     export default Header
 
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
@@ -44,7 +19,7 @@ const Header = () => {
             <Link to="/">News</Link>
           </p>
           <p>
-            <Link to="/Contact">Contact</Link>{" "}
+            <Link to="/create">Post an Article</Link>{" "}
           </p>
         </div>
       </div>

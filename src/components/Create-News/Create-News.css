@@ -1,0 +1,22 @@
+.create-news_container {
+    padding-top: 1em;
+    padding-left: 6em;
+  color: rgb(0, 0, 0);
+  font-family: var(--font-family);
+  /* font-weight: 500; */
+  font-size: 1.5rem;
+  /* line-height: 25px; */
+  /* text-transform: capitalize; */
+
+  margin: 0 1rem;
+}
+
+
+.create-news_container p{
+ margin-top: 0.5em;
+}
+
+.create-news_container .msg{
+    font-size: 1rem;
+    margin-bottom: 2em;
+   }

@@ -4,7 +4,8 @@ import "./App.css";
 import News from "./components/News/News";
 import { GlobalProvider } from "./context/GlobalState";
 import Header from "./components/Header/Header";
-import Contact from "./components/Contact/Contact";
+import CreateNews from "./components/Create-News/Create-News";
+import Footer from "./components/Footer/Footer";
 
 import CookieConsent from "react-cookie-consent";
 
@@ -16,8 +17,9 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<News />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/create" element={<CreateNews />} />
           </Routes>
+          <Footer/>
         </GlobalProvider>
       </BrowserRouter>
       <CookieConsent

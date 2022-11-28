@@ -10,11 +10,12 @@ a {
 }
 
 .gpt3__navbar-links {
-  flex: 1;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
+
 
 .gpt3__navbar-links_logo {
   margin-right: 2rem;
@@ -22,6 +23,7 @@ a {
 
 .gpt3__navbar-links_logo img {
   width: 12rem;
+  cursor: pointer
 }
 
 .gpt3__navbar-links_container {
@@ -104,7 +106,8 @@ a {
 
 @media screen and (max-width: 1050px) {
   .gpt3__navbar-links_container {
-    display: none;
+    align-items: center;
+
   }
 
   .gpt3__navbar-menu {
