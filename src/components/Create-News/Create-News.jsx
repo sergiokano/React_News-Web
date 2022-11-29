@@ -96,9 +96,9 @@ export const CreateNews = () => {
         />
         <br />
         <p>Body</p>
-        <input
+        <textarea
           type="text"
-          placeholder="Write the body news here"
+          placeholder="Write the article here"
           value={data.news}
           onChange={handleInputChange}
           name="news"
