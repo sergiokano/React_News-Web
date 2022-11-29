@@ -109,15 +109,19 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/sergiokano/React_News-Web
    ```
+   
 2. Install NPM packages
 
-   ```sh npm install react-router-dom@6 sass react-cookie-consent```
+
+   ```sh
+    npm install react-router-dom@6 sass react-cookie-consent
+    ```
    
 3. Ready to start!
 
-```sh
-npm start
-```
+  ```sh
+  npm start
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
