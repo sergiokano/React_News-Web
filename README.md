@@ -127,6 +127,14 @@ npm start
 
 ![foto](./src/assets/Home.png)
 
+- News general overview
+
+![foto](./src/assets/News.png)
+
+- News Cards overview
+
+![foto](./src/assets/NewsCard.png)
+
 
 - Post an Article general overview
 
