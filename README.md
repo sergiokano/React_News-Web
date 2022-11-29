@@ -5,7 +5,7 @@
   <h3 align="center">MERN STACK REACT PROJECT</h3>
 
   <p align="center">
-    News Web made using Javascript, API , Node, Express and SASS.
+    News Web made using Javascript, API, axios, Node, Express and SASS.
     <br />
     <a href="https://github.com/sergiokano/React_News-Web"><strong>Explore the docs »</strong></a>
     <br />
@@ -98,6 +98,7 @@ This is an example of how to list things you need to use the software and how to
   npm install react-router-dom@6
   npm install sass
   npm install react-cookie-consent
+  $ npm install axios
   ```
 
 ### Installation
@@ -114,7 +115,7 @@ This is an example of how to list things you need to use the software and how to
 
 
    ```sh
-    npm install react-router-dom@6 sass react-cookie-consent
+    npm install react-router-dom@6 sass react-cookie-consent axios
     ```
    
 3. Ready to start!
