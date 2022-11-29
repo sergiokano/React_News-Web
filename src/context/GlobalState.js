@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
-import axios from "axios";
+import axios from "axios"
 export const GlobalContext = createContext();
 
 export const GlobalProvider = ({ children }) => {
@@ -8,10 +8,9 @@ export const GlobalProvider = ({ children }) => {
   const [category, setCategory] = useState("general");
 
   useEffect(() => {
-    axios
-      .get(
-        `https://newsapi.org/v2/everything?q=${category}&language=en&from=2022-10-28&sortBy=publishedAt&apiKey=fa861c3841f044118455f78a056101a2`
-          )
+    axios.get(
+      `https://newsapi.org/v2/everything?q=${category}&from=2022-10-29&language=en&from=2022-10-28&sortBy=publishedAt&apiKey=fa861c3841f044118455f78a056101a2`
+     )
       .then((res) => setItems(res.data.articles));
   }, [category]);
 
