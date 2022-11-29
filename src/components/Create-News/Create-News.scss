@@ -10,6 +10,13 @@
   p {
     margin-top: 0.5em;
   }
+  ::placeholder {
+    
+    font-family: var(--font-family);
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    opacity: 50%;
+}
 
   .msg {
     font-size: 1rem;
