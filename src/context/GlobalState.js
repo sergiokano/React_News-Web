@@ -10,8 +10,8 @@ export const GlobalProvider = ({ children }) => {
   useEffect(() => {
     axios
       .get(
-        `https://newsapi.org/v2/everything?q=${category}&language=en&from=2022-10-28&sortBy=publishedAt&apiKey=04b6e0e527f84515b53d06f01a8efd4d`
-      )
+        `https://newsapi.org/v2/everything?q=${category}&language=en&from=2022-10-28&sortBy=publishedAt&apiKey=fa861c3841f044118455f78a056101a2`
+          )
       .then((res) => setItems(res.data.articles));
   }, [category]);
 

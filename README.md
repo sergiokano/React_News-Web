@@ -34,6 +34,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
+    <li><a href="#preview">Preview</a></li>
     <li><a href="#future-roadmap">Future Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -118,6 +119,19 @@ npm start
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- PREVIEW -->
+## Preview 
+
+- Home general overview
+
+![foto](./src/assets/Home.png)
+
+
+- Post an Article general overview
+
+![foto](./src/assets/PostArticle.png)
+
 
 <!-- FUTURE -->
 
