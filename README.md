@@ -105,10 +105,12 @@ This is an example of how to list things you need to use the software and how to
 \_Below is an example of how you can instruct your audience on installing and setting up your app.
 
 1. Clone the repo
+
    ```sh
    git clone https://github.com/sergiokano/React_News-Web
    ```
 2. Install NPM packages
+
    ```sh
  npm install react-router-dom@6 sass react-cookie-consent
    ```
