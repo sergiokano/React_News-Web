@@ -8,14 +8,14 @@ const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="gpt3__navbar">
-      <div className="gpt3__navbar-links">
-        <div className="gpt3__navbar-links_logo">
+    <div className="navbar">
+      <div className="navbar-links">
+        <div className="navbar-links_logo">
           <Link to="/">
             <img src={logo} alt="Meta News Logo"></img>
           </Link>
         </div>
-        <div className="gpt3__navbar-links_container">
+        <div className="navbar-links_container">
           <p>
             <Link to="/">Home</Link>
           </p>
@@ -27,7 +27,7 @@ const Header = () => {
           </p>
         </div>
       </div>
-      <div className="gpt3__navbar-sign">
+      <div className="navbar-sign">
         <p>
           <a href="https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fonboarding-offer%3FcampaignId%3D7JFJX%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252F&asset=masthead">
             Sign in
@@ -39,7 +39,7 @@ const Header = () => {
           </a>
         </p>
       </div>
-      <div className="gpt3__navbar-menu">
+      <div className="navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
             color="#black"
@@ -53,31 +53,11 @@ const Header = () => {
             onClick={() => setToggleMenu(true)}
           />
         )}
-        {toggleMenu && (
-          <div className="gpt3__navbar-menu_container scale-up-center">
-            <div className="gpt3__navbar-menu_container-links">
-              <p>
-                <a href="#home">Home</a>
-              </p>
-              <p>
-                <a href="#wgpt3">What is GPT3?</a>
-              </p>
-              <p>
-                <a href="#possibility">Open AI</a>
-              </p>
-              <p>
-                <a href="#features">Case Studies</a>
-              </p>
-              <p>
-                <a href="#blog">Library</a>
-              </p>
-            </div>
-            <div className="gpt3__navbar-menu_container-links-sign">
-              <p>Sign in</p>
-              <button type="button">Sign up</button>
-            </div>
-          </div>
-        )}
+
+        <div className="navbar-menu_container-links-sign">
+          <p>Sign in</p>
+          <button type="button">Sign up</button>
+        </div>
       </div>
     </div>
   );
