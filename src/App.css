@@ -1,6 +1,5 @@
 
 * {
-  /* all: unset; */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -12,8 +11,8 @@ body {
 
 .title {
   text-align: center;
-  margin: 2em 0;
-  font-size: 4em;
+  margin: 1em 0;
+  font-size: 2.8em;
 }
 
 .menu {

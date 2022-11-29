@@ -22,7 +22,7 @@ a {
 }
 
 .gpt3__navbar-links_logo img {
-  width: 12rem;
+  width: 10rem;
   cursor: pointer
 }
 
@@ -42,11 +42,7 @@ a {
 .gpt3__navbar-menu_container p {
   color: rgb(0, 0, 0);
   font-family: var(--font-family);
-  /* font-weight: 500; */
-  font-size: 1.5rem;
-  /* line-height: 25px; */
-  /* text-transform: capitalize; */
-
+  font-size: 1.2rem;
   margin: 0 1rem;
   cursor: pointer;
 }
@@ -58,7 +54,7 @@ a {
   background: #ff4820;
   font-family: var(--font-family);
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   line-height: 25px;
   border: none;
   outline: none;

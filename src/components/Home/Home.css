@@ -1,0 +1,8 @@
+.home_container {
+  padding-top: em;
+  padding-bottom: 13.5em;
+  color: rgb(0, 0, 0);
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+  text-align: center;
+}

@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import News from "./components/News/News";
 import { GlobalProvider } from "./context/GlobalState";
+import Home from "./components/Home/Home";
+
 import Header from "./components/Header/Header";
 import CreateNews from "./components/Create-News/Create-News";
 import Footer from "./components/Footer/Footer";
@@ -16,19 +18,19 @@ function App() {
         <GlobalProvider>
           <Header />
           <Routes>
-            <Route path="/" element={<News />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/news" element={<News />} />
             <Route path="/create" element={<CreateNews />} />
           </Routes>
-          <Footer/>
+          <Footer />
         </GlobalProvider>
       </BrowserRouter>
       <CookieConsent
-      enableDeclineButton
-      onDecline={() => {
-        alert(":(((((((((((((");
-      }}
-      location="bottom"
-      // border-radius= "5px"
+        enableDeclineButton
+        onDecline={() => {
+          alert(":(((((((((((((");
+        }}
+        location="bottom"
         buttonText="Accept"
         cookieName="myAwesomeCookieName2"
         style={{ background: "#2B373B" }}
