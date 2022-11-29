@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Create-News.scss";
 
-
 export const CreateNews = () => {
   let navigate = useNavigate();
   const [btnDisabled, setBtnDisabled] = useState(true);
@@ -68,47 +67,49 @@ export const CreateNews = () => {
       <h1 className="title">Post an Article</h1>
       <form onSubmit={handleSubmit}>
         <div className="create-news_container">
-        <p>Author</p>
-        <input
-          type="text"
-          placeholder="Your name here"
-          value={data.author}
-          onChange={handleInputChange}
-          name="author"
-        />
-        <br />
-        <p>Email</p>
-        <input
-          type="text"
-          placeholder="Your email here"
-          value={data.email}
-          onChange={handleInputChange}
-          name="email"
-        />
-        <br />
-        <p>Title</p>
-        <input
-          type="text"
-          placeholder="Put the title news here"
-          value={data.title}
-          onChange={handleInputChange}
-          name="title"
-        />
-        <br />
-        <p>Body</p>
-        <textarea
-          type="text"
-          placeholder="Write the article here"
-          value={data.news}
-          onChange={handleInputChange}
-          name="news"
-        />
-        <p>
-          <button type="submit" disabled={btnDisabled}>
-            Send
-          </button>
-        </p>
-      <p className="msg">{visible ? message : "Thanks for your article :)"}</p>
+          <p>Author</p>
+          <input
+            type="text"
+            placeholder="Your name here"
+            value={data.author}
+            onChange={handleInputChange}
+            name="author"
+          />
+          <br />
+          <p>Email</p>
+          <input
+            type="text"
+            placeholder="Your email here"
+            value={data.email}
+            onChange={handleInputChange}
+            name="email"
+          />
+          <br />
+          <p>Title</p>
+          <input
+            type="text"
+            placeholder="Put the title news here"
+            value={data.title}
+            onChange={handleInputChange}
+            name="title"
+          />
+          <br />
+          <p>Body</p>
+          <textarea
+            type="text"
+            placeholder="Write the article here"
+            value={data.news}
+            onChange={handleInputChange}
+            name="news"
+          />
+          <p>
+            <button type="submit" disabled={btnDisabled}>
+              Send
+            </button>
+          </p>
+          <p className="msg">
+            {visible ? message : "Thanks for your article :)"}
+          </p>
         </div>
       </form>
     </>

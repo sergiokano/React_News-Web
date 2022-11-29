@@ -1,5 +1,5 @@
 a {
-    all: unset;
+  all: unset;
 }
 
 .navbar {
@@ -10,12 +10,11 @@ a {
 }
 
 .navbar-links {
-    flex: 1;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
-
 
 .navbar-links_logo {
   margin-right: 2rem;
@@ -23,7 +22,7 @@ a {
 
 .navbar-links_logo img {
   width: 10rem;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .navbar-links_container {
@@ -103,7 +102,6 @@ a {
 @media screen and (max-width: 1050px) {
   .navbar-links_container {
     align-items: center;
-
   }
 
   .navbar-menu {

@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { GlobalContext } from "../../context/GlobalState";
 
 function Menu() {
-  const { active, setActive, setCategory } = useContext(GlobalContext)
+  const { active, setActive, setCategory } = useContext(GlobalContext);
   const links = [
     { id: 1, name: "General", value: "general" },
     { id: 2, name: "Business", value: "business" },
