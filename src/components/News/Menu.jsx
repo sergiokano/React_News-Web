@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { GlobalContext } from "../context/GlobalState";
+import { GlobalContext } from "../../context/GlobalState";
 
 function Menu() {
   const { active, setActive, setCategory } = useContext(GlobalContext)

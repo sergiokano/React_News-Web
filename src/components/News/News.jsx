@@ -1,6 +1,6 @@
 import React from 'react'
-import Menu from "../Menu"
-import NewsGrid from "../NewsGrid";
+import Menu from "./Menu"
+import NewsGrid from "./NewsGrid";
 import "../../App.css";
 
 const News = () => {
